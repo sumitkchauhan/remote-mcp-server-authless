@@ -1,0 +1,8 @@
+---
+applications:
+- name: my-mcp-server
+  path: .
+  buildpacks:
+  - nodejs_buildpack
+  memory: 128M
+  instances: 1
